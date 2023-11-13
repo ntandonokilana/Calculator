@@ -1,9 +1,9 @@
 document.addEventListener("DOMContentLoaded", function () {
 
-    var display = document.getElementById("display");
-    var buttons = document.querySelectorAll(".btn");
+    let display = document.getElementById("display");
+    let buttons = document.querySelectorAll(".btn");
   
-    var currentInput = "";
+    let currentInput = "";
   
     buttons.forEach(function (button) {
       button.addEventListener("click", function () {
